@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54d5b842-1bcc-4124-a1ee-03687bdedab9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/includes/AuthorizeNet/composer.json" />
+      <option value="$PROJECT_DIR$/voip_service/composer.json" />
+      <option value="$PROJECT_DIR$/includes/PHPMailer-master/composer.json" />
+      <option value="$PROJECT_DIR$/live-calls/composer.json" />
+      <option value="$PROJECT_DIR$/includes/cgoogle-tts/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/pma/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php@8.1/8.1.28/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/pma/vendor/samyoul/u2f-php-server" />
+      <path value="$PROJECT_DIR$/pma/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/pma/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/pma/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/pma/vendor/phpmyadmin/shapefile" />
+      <path value="$PROJECT_DIR$/pma/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/pma/vendor/composer" />
+      <path value="$PROJECT_DIR$/pma/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/pma/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/pma/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/pma/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/pma/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/pma/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/pma/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/pma/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/pma/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/pma/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/pma/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/pma/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/pma/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/includes/AuthorizeNet/vendor/authorizenet/authorizenet" />
+      <path value="$PROJECT_DIR$/includes/AuthorizeNet/vendor/composer" />
+      <path value="$PROJECT_DIR$/voip_service/vendor/composer" />
+      <path value="$PROJECT_DIR$/voip_service/vendor/phpxmlrpc/phpxmlrpc" />
+      <path value="$PROJECT_DIR$/live-calls/vendor/phpxmlrpc/phpxmlrpc" />
+      <path value="$PROJECT_DIR$/live-calls/vendor/composer" />
+      <path value="$PROJECT_DIR$/includes/cgoogle-tts/vendor/composer" />
+      <path value="$PROJECT_DIR$/includes/cgoogle-tts/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/includes/cgoogle-tts/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/includes/cgoogle-tts/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/includes/cgoogle-tts/vendor/psr/http-message" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2rDg15Y0VWwYGugyr948WKHTDa2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zubairtahir/other-projects/message-phone&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="PHP Script.subscription-expiry-checker.php">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/message-phone/teltech/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/teltech/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="subscription-expiry-checker.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/subscription-expiry-checker.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.subscription-expiry-checker.php" />
+        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17011.119" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17011.119" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54d5b842-1bcc-4124-a1ee-03687bdedab9" name="Changes" comment="" />
+      <created>1736098841620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736098841620</updated>
+      <workItem from="1736098842711" duration="612000" />
+      <workItem from="1736099466344" duration="816000" />
+      <workItem from="1736149998098" duration="44614000" />
+      <workItem from="1736426478140" duration="990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+name: Deploy to Namecheap Hosting
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to Namecheap
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: 5.161.100.34
+          username: zubair
+          password: CvWq21Ws0dcS9
+          local-dir: ./
+          server-dir: /
