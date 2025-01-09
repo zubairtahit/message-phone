@@ -1,23 +1,27 @@
-name: Deploy to Namecheap Hosting
+name: Deploy to Server
 
 on:
   push:
     branches:
-      - main
+      - main  # Adjust to your branch name
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Deploy to Namecheap
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.6
         with:
-          server: 5.161.100.34
+          host: 5.161.100.34
           username: zubair
           password: CvWq21Ws0dcS9
-          local-dir: ./
-          server-dir: /
+          key: AAAAC3NzaC1lZDI1NTE5AAAAINkb3DrOXhI96dZy+9oiZbjKCCwX9a4vxGv2WU2QJLis
+          port: 22
+          script: |
+            cd /var/www/html
+            git pull origin main
+            # Add commands to restart services, clear cache, etc.
