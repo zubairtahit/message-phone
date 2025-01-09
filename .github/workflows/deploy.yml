@@ -19,7 +19,7 @@ jobs:
           host: 5.161.100.34
           username: zubair
           password: CvWq21Ws0dcS9
-          key: AAAAC3NzaC1lZDI1NTE5AAAAINkb3DrOXhI96dZy+9oiZbjKCCwX9a4vxGv2WU2QJLis
+          
           port: 22
           script: |
             cd /var/www/html
